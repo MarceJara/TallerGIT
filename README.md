@@ -9,7 +9,8 @@ Este repositorio servirá de guía y apoyo para el taller sobre git y Github a r
  - [Manejo de ramas](https://github.com/MarceJara/TallerGIT#manejo-de-ramas)
  - [Adicionales](https://github.com/MarceJara/TallerGIT#adicionales)
 ## Iniciar un repositorio
-
+### Creacion de uno nuevo
+### Clonacion de uno existente 
 To run tests, run the following command
 
 ```bash
