@@ -10,6 +10,14 @@ Este repositorio servirá de guía y apoyo para el taller sobre git y Github a r
  - [Adicionales](https://github.com/MarceJara/TallerGIT#adicionales)
 ## Iniciar un repositorio
 ### Creacion de uno nuevo
+Inicializando un repositorio.
+```bash
+  git init
+```
+Añadir el arichivos del directorio de trabajo al de ensayo(staging).
+```bash
+  git add . 
+```
 ### Clonacion de uno existente 
 To run tests, run the following command
 
