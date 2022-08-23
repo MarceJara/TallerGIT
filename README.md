@@ -2,15 +2,13 @@
 # Taller de git en Github
 Este repositorio servirá de guía y apoyo para el taller sobre git y Github a realizarse en el Grupo de Robótica PUCP.
 
-
 ## Contenido
 
- - Iniciar un repositorio
- - Configuración de credenciales
- - Manejo de archivos
- - Manejo de ramas
- - Adicionales
-
+ - [Iniciar un repositorio](https://github.com/MarceJara/TallerGIT#iniciar-un-repositorio)
+ - [Configuración de credenciales](https://github.com/MarceJara/TallerGIT#configuracion-de-credenciales)
+ - [Manejo de archivos](https://github.com/MarceJara/TallerGIT#manejo-de-archivos)
+ - [Manejo de ramas](https://github.com/MarceJara/TallerGIT#manejo-de-ramas)
+ - [Adicionales](https://github.com/MarceJara/TallerGIT#adicionales)
 ## Iniciar un repositorio
 
 To run tests, run the following command
@@ -56,4 +54,3 @@ To run tests, run the following command
 ```bash
   print("hello world")
 ```
-
