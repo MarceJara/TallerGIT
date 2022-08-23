@@ -25,7 +25,7 @@ To run tests, run the following command
 ```
 ## Manejo de archivos
 
-To run tests, run the following command
+add push commit fetch
 
 ```bash
   print("hello world")
@@ -53,18 +53,18 @@ Asimismo, para cambiar entre ramas se usa el comando:
   git checkout otro_nombre_rama
 ```
 
-## Organización de ramas
+### Organización de ramas
 
 Existen distintas formas de manejar las organización de las ramas al trabajar en
 equipo, a continuación veremos dos tipos:
 
-#### Github Flow
-#### 
+#### Git Flow
+#### GitHub Flow
 
 
 ## Adicionales
 
-To run tests, run the following command
+#### GITIGNORE
 
 ```bash
   print("hello world")
