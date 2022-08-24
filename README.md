@@ -68,10 +68,10 @@ Existen distintas formas de manejar las organización de las ramas al trabajar e
 equipo, a continuación veremos dos tipos:
 
 ### Git Flow
-![git flow](gitflow.png)
+![git flow](images/gitflow.png)
 
 ### GitHub Flow
-![github flow](githubflow.png)
+![github flow]((images/githubflow.png)
 
 # Adicionales
 ## ¿Quieres evitar que archivos indeseables se suban a tu repositorio?
