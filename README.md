@@ -18,26 +18,38 @@ Añadir el arichivos del directorio de trabajo al de ensayo(staging).
 ```bash
   git add . 
 ```
-## Clonacion de uno existente 
-To run tests, run the following command
 
+Commit
 ```bash
-  print("hello world")
+  git commit -M "Primer commit" 
+```
+Cambiar a la rama main
+```bash
+  git branch -M main
+```
+Añadir el arichivos del directorio de trabajo al de ensayo(staging).
+```bash
+  git remote add origin https://github.com/NOMBRE_USUARIO/NOMBRE_PROYECTO.git
+```
+Cambiar a la rama main
+```bash
+  git push -u origin main
+```
+
+## Clonacion de uno existente 
+```bash
+  git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
 ```
 
 # Configuración de credenciales
 
-To run tests, run the following command
+Nos podremos identidicar con GIT con los siguientes comandos:
 
 ```bash
-  print("hello world")
-```
-# Manejo de archivos
-
-add push commit fetch
-
-```bash
-  print("hello world")
+  #Nombre de usuario con el que GIT te reconocera
+  git config --global user.name "Your Name"
+  #Correo asociado a tu nomrbe de usuario
+  git config --global user.email "your@email.com"
 ```
 # Manejo de ramas
 
