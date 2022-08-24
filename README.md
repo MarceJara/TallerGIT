@@ -8,8 +8,8 @@ Este repositorio servirá de guía y apoyo para el taller sobre git y Github a r
  - [Manejo de archivos](https://github.com/MarceJara/TallerGIT#manejo-de-archivos)
  - [Manejo de ramas](https://github.com/MarceJara/TallerGIT#manejo-de-ramas)
  - [Adicionales](https://github.com/MarceJara/TallerGIT#adicionales)
-## Iniciar un repositorio
-### Creacion de uno nuevo
+# Iniciar un repositorio
+## Creacion de uno nuevo
 Inicializando un repositorio.
 ```bash
   git init
@@ -18,28 +18,28 @@ Añadir el arichivos del directorio de trabajo al de ensayo(staging).
 ```bash
   git add . 
 ```
-### Clonacion de uno existente 
+## Clonacion de uno existente 
 To run tests, run the following command
 
 ```bash
   print("hello world")
 ```
 
-## Configuración de credenciales
+# Configuración de credenciales
 
 To run tests, run the following command
 
 ```bash
   print("hello world")
 ```
-## Manejo de archivos
+# Manejo de archivos
 
 add push commit fetch
 
 ```bash
   print("hello world")
 ```
-## Manejo de ramas
+# Manejo de ramas
 
 Una vez que sepas manejar los archivos dentro de tu repositorio por tu cuenta, ya podemos avanzar 
 a conocer como trabajar en equipo. Las ramas, o *branch* en ingles, son una forma de poder
@@ -62,18 +62,19 @@ Asimismo, para cambiar entre ramas se usa el comando:
   git checkout otro_nombre_rama
 ```
 
-### [Organización de ramas](https://www.babelgroup.com/es/Media/Blog/Abril-2021/Cinco-Git-Workflows-para-mejores-proyectos)
+## [Organización de ramas](https://www.babelgroup.com/es/Media/Blog/Abril-2021/Cinco-Git-Workflows-para-mejores-proyectos)
 
 Existen distintas formas de manejar las organización de las ramas al trabajar en
 equipo, a continuación veremos dos tipos:
 
-#### Git Flow
-#### GitHub Flow
+### Git Flow
+![git flow](gitflow.png)
 
+### GitHub Flow
+![github flow](githubflow.png)
 
-## Adicionales
-
-### ¿Quieres evitar que archivos indeseables se suban a tu repositorio?
+# Adicionales
+## ¿Quieres evitar que archivos indeseables se suban a tu repositorio?
 Usa en tu repositorio un archivo .gitignore
 Los archivos de este tipo continen expresiones regulares y formatos de extensiones que harán que git identifique cuales archivos no hacerles seguimiento.
 
