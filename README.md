@@ -62,7 +62,7 @@ Asimismo, para cambiar entre ramas se usa el comando:
   git checkout otro_nombre_rama
 ```
 
-### Organización de ramas
+### [Organización de ramas](https://www.babelgroup.com/es/Media/Blog/Abril-2021/Cinco-Git-Workflows-para-mejores-proyectos)
 
 Existen distintas formas de manejar las organización de las ramas al trabajar en
 equipo, a continuación veremos dos tipos:
@@ -73,8 +73,17 @@ equipo, a continuación veremos dos tipos:
 
 ## Adicionales
 
-#### GITIGNORE
+### ¿Quieres evitar que archivos indeseables se suban a tu repositorio?
+Usa en tu repositorio un archivo .gitignore
+Los archivos de este tipo continen expresiones regulares y formatos de extensiones que harán que git identifique cuales archivos no hacerles seguimiento.
+
+Dependiendo de las herramientas que uses o el lenguaje en el que desarrolles tu proyecto te será muy útil ignorar ciertos archivos. 
+
+La siguiente página web te ayudará brindandote el código si le das el tipo de herramienta que estas usando, por ejemplo, VisualStudio.  https://www.toptal.com/developers/gitignore
+
+Asimismo, deberás ejecutar el siguiente comando para crear el archivo en donde pegarás el código que te brinda la página.
 
 ```bash
-  print("hello world")
+  touch .gitignore
 ```
+Si deas saber como realizar tus propias expresiones para el archivo .gitignore visita esta [página](https://gist.github.com/jstnlvns/ebaa046fae16543cc9efc7f24bcd0e31)
